@@ -7,7 +7,7 @@ A fictional Google Sheets-style repair demo with sample rows, chart status, and 
 - Fox & Hen offer: Google Sheets dashboard repair and handoff
 - Upwork catalog proof point: Spreadsheet dashboard cleanup
 - Live demo: Pending Vercel deployment at `https://foxhen-sheets-dashboard-repair.vercel.app`
-- Repository: Pending publish to `https://github.com/foxandhenllc/foxhen-sheets-dashboard-repair`
+- Repository: https://github.com/foxandhenllc/foxhen-sheets-dashboard-repair
 
 ## Screenshot
 
