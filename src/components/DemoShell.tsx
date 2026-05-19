@@ -169,7 +169,7 @@ export function DemoShell({ demo }: DemoShellProps) {
               <a className="rounded-full px-3 py-2 hover:bg-slate-100" href="#handoff">
                 Handoff
               </a>
-              <a className="hidden rounded-full bg-slate-950 px-4 py-2 text-white sm:inline-flex" href={demo.repo}>
+              <a className="hidden rounded-full bg-slate-950 px-4 py-2 font-black !text-white shadow-sm ring-1 ring-slate-950/10 transition hover:-translate-y-0.5 hover:bg-slate-800 sm:inline-flex" href={demo.repo}>
                 Repository
               </a>
             </div>
