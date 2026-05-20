@@ -59,6 +59,6 @@ This repository is a public sample app. It uses React, TypeScript, Vite, Tailwin
 ## Forking Notes
 
 - Customize `src/data/sample.ts` for workbook tabs, formulas, issues, rows, chart notes, KPIs, and handoff content.
-- Keep rows fictional or anonymized; do not publish real sheets, customer metrics, formulas tied to private systems, screenshots, or credentials.
+- Keep rows fictional or anonymized; do not publish real sheets, customer metrics, formulas tied to internal systems, screenshots, or credentials.
 - Update `repo`, `liveUrl`, screenshot assets, and service copy before using a fork as a public template.
 - Do not add Google APIs, OAuth, Apps Script, analytics, forms, or external data sources without changing the scope and documenting the new setup.
