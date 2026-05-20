@@ -20,6 +20,13 @@ The sample presents a messy workbook as a repair workbench:
 - Live demo: https://foxhen-sheets-dashboard-repair.vercel.app
 - Repository: https://github.com/foxandhenllc/foxhen-sheets-dashboard-repair
 
+| Service moment | Demo artifact | Buyer takeaway |
+| --- | --- | --- |
+| Audit | Sheet tabs, owner notes, formula health filters, and issue counts | Shows where the workbook is fragile before repair. |
+| Repair | Before/after formulas, broken metric diagnosis, and source rows | Connects dashboard symptoms to practical spreadsheet fixes. |
+| Clarify | Chart preview and KPI toggle | Turns visual cleanup into a measurable decision story. |
+| Handoff | Repair checklist, validation checks, notes, and local export state | Demonstrates a public-safe package for future maintenance. |
+
 ## Screenshot
 
 ![Sheets Dashboard Repair demo screenshot](docs/demo-screenshot.png)
@@ -48,3 +55,10 @@ npm run build
 ## Scope Note
 
 This repository is a public sample app. It uses React, TypeScript, Vite, Tailwind, and local static data only. It does not require environment variables, accounts, payments, databases, or third-party services.
+
+## Forking Notes
+
+- Customize `src/data/sample.ts` for workbook tabs, formulas, issues, rows, chart notes, KPIs, and handoff content.
+- Keep rows fictional or anonymized; do not publish real sheets, customer metrics, formulas tied to private systems, screenshots, or credentials.
+- Update `repo`, `liveUrl`, screenshot assets, and service copy before using a fork as a public template.
+- Do not add Google APIs, OAuth, Apps Script, analytics, forms, or external data sources without changing the scope and documenting the new setup.

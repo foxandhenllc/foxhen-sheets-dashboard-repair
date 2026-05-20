@@ -239,6 +239,10 @@ export function DemoShell({ demo }: DemoShellProps) {
                         <p className="mt-2 text-sm font-black">{activeTab.role}</p>
                       </div>
                     </div>
+                    <div className="mt-3 rounded-2xl border border-white/10 bg-white/[0.06] p-4">
+                      <p className="text-xs font-black uppercase tracking-[0.18em] text-white/40">Owner note</p>
+                      <p className="mt-2 text-sm leading-6 text-white/70">{activeTab.ownerNote}</p>
+                    </div>
                     <div className="mt-4 rounded-2xl bg-white p-4 text-slate-950">
                       <div className="mb-3 flex items-center justify-between">
                         <h2 className="text-base font-black">Formula health map</h2>
@@ -536,6 +540,11 @@ export function DemoShell({ demo }: DemoShellProps) {
                   {handoffState}
                 </span>
               </div>
+              {handoffState === 'exported' && (
+                <div className="mb-4 rounded-2xl border border-emerald-300/20 bg-emerald-300/10 p-3 text-sm font-bold leading-6 text-emerald-100">
+                  Export package prepared locally with {checkedRepairs.length}/{demo.issues.length} simulated repairs checked.
+                </div>
+              )}
               <div className="grid gap-3">
                 {demo.notes.map((note) => (
                   <div key={note.title} className="rounded-2xl bg-white/[0.06] p-3">
