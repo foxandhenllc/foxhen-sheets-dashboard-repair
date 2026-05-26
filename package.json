@@ -24,13 +24,25 @@
   },
   "homepage": "https://foxhen-sheets-dashboard-repair.vercel.app",
   "keywords": [
-    "sheets",
+    "checker",
+    "cleanup",
     "dashboard",
     "data-cleaning",
+    "demo",
+    "formula",
     "formula-qa",
+    "fox-and-hen",
+    "google",
+    "handoff",
+    "health",
     "react",
+    "repair",
+    "sheets",
+    "small-business",
+    "spreadsheet",
+    "template",
     "typescript",
     "vite",
-    "fox-and-hen"
+    "workflow-tools"
   ]
 }

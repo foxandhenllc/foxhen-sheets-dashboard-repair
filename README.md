@@ -43,6 +43,21 @@ The sample presents a messy workbook as a repair workbench:
 4. Toggle the chart preview between before and after states.
 5. Toggle KPI tiles, complete the repair checklist, and prepare the handoff export.
 
+## SEO / AIO Discoverability
+
+**Plain-language answer:** Use this repo to model a spreadsheet dashboard repair engagement with formula health, source-row checks, chart cleanup, and handoff notes.
+
+**Who it helps:** spreadsheet-heavy teams with brittle dashboards or reporting workbooks.
+
+**Search intents covered:**
+
+- Google Sheets dashboard repair
+- formula health checker demo
+- spreadsheet QA handoff
+- dashboard cleanup template
+
+**Why this repo is useful:** It shows how to connect dashboard symptoms to formula issues, source rows, chart clarity, and maintenance-ready documentation.
+
 ## Local Run
 
 ```bash
