@@ -1,5 +1,9 @@
 # Sheets Dashboard Repair Studio
 
+## Purpose
+
+Google Sheets-style dashboard repair studio for formula health, source rows, chart cleanup, and handoff notes.
+
 A portfolio-grade Google Sheets-style repair demo for a fixed-scope dashboard cleanup offer. The app is a local-only React mini product with fictional workbook data, interactive diagnosis, repair controls, and a simulated handoff.
 
 ## Demo Narrative
