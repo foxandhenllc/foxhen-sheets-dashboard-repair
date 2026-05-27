@@ -21,7 +21,7 @@ The sample presents a messy workbook as a repair workbench:
 
 - Fox & Hen offer: Google Sheets dashboard repair and handoff
 - Upwork-style proof point: spreadsheet dashboard cleanup
-- Live demo: https://foxhen-sheets-dashboard-repair.vercel.app
+- Live demo: https://freetoolsforpeople.com/sheets-dashboard-repair
 - Repository: https://github.com/foxandhenllc/foxhen-sheets-dashboard-repair
 
 | Service moment | Demo artifact | Buyer takeaway |

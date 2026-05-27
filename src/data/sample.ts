@@ -105,7 +105,7 @@ export const demo: DemoData = {
   tagline:
     'A public-safe mini product that audits fictional workbook tabs, diagnoses broken metrics, previews chart cleanup, and packages a clear handoff.',
   repo: 'https://github.com/foxandhenllc/foxhen-sheets-dashboard-repair',
-  liveUrl: 'https://foxhen-sheets-dashboard-repair.vercel.app',
+  liveUrl: 'https://freetoolsforpeople.com/sheets-dashboard-repair',
   tabs: [
     {
       id: 'overview',
