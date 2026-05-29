@@ -44,5 +44,6 @@
     "typescript",
     "vite",
     "workflow-tools"
-  ]
+  ],
+  "license": "MIT"
 }

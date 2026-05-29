@@ -1,5 +1,7 @@
 # Sheets Dashboard Repair Studio
 
+[![Build](https://github.com/foxandhenllc/foxhen-sheets-dashboard-repair/actions/workflows/build.yml/badge.svg)](https://github.com/foxandhenllc/foxhen-sheets-dashboard-repair/actions/workflows/build.yml)
+
 ## Purpose
 
 Google Sheets-style dashboard repair studio for formula health, source rows, chart cleanup, and handoff notes.
@@ -58,6 +60,13 @@ The sample presents a messy workbook as a repair workbench:
 
 **Why this repo is useful:** It shows how to connect dashboard symptoms to formula issues, source rows, chart clarity, and maintenance-ready documentation.
 
+## Open Source Readiness
+
+- MIT licensed for reuse, remixing, and client-safe adaptation.
+- GitHub Actions build workflow runs install, typecheck, tests when present, and production build.
+- Contribution guide, roadmap, and issue templates are included for public collaboration.
+- Public-safe data policy keeps examples fictional and reviewable.
+
 ## Local Run
 
 ```bash
@@ -81,3 +90,19 @@ This repository is a public sample app. It uses React, TypeScript, Vite, Tailwin
 - Keep rows fictional or anonymized; do not publish real sheets, customer metrics, formulas tied to internal systems, screenshots, or credentials.
 - Update `repo`, `liveUrl`, screenshot assets, and service copy before using a fork as a public template.
 - Do not add Google APIs, OAuth, Apps Script, analytics, forms, or external data sources without changing the scope and documenting the new setup.
+
+## Validation
+
+```bash
+npm run typecheck --if-present
+npm run test --if-present
+npm run build --if-present
+```
+
+## Contributing
+
+See `CONTRIBUTING.md` for public-safe contribution rules, local validation commands, and good first contribution ideas. Roadmap items live in `ROADMAP.md`.
+
+## License
+
+MIT - see `LICENSE`.
